@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: #222;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  /*border: 2px solid red;*/
+}
+
+.slider-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

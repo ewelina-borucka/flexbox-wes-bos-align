@@ -7,7 +7,7 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 5%;
+  padding: 50px;
 }
 
 img {
@@ -18,7 +18,15 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  /*border: 2px solid red;*/
+  padding: 20px 5px;
+  /*background-color: hotpink;*/
+  border: 2px solid #fff;
+
+}
+
+a:hover {
+  background-color: hotpink;
+  border: 2px solid hotpink;
 }
 
 .slider-nav ul {

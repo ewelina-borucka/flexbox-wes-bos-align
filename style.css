@@ -21,6 +21,7 @@ img {
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #fff;
   font-size: 18px;
   padding: 20px 5px;
@@ -45,7 +46,6 @@ a:hover {
 .slider-nav li {
   flex: 2;
   text-align: center;
-  border: 1px solid red;
   display: flex;  /* makes container for a tags */
 }
 
@@ -53,8 +53,19 @@ a:hover {
   flex: 1
 }
 
+.arrow a {
+  font-size: 30px;
+}
+
 .slider-nav a {
   /*display: block;
   width: 100%;*/
   flex-basis: 100%; /* since a tags are flex items use flex-basis */
+  display: flex;
+  align-items: center;  /*  by default stretch*/
+}
+
+/* flex item for a tags */
+.slider-nav span {
+  flex-basis: 100%;
 }

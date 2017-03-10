@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   background-color: #222;
@@ -19,18 +24,33 @@ a {
   color: #fff;
   font-size: 18px;
   padding: 20px 5px;
-  /*background-color: hotpink;*/
+  background-color: #444;
   border: 2px solid #fff;
 
 }
 
 a:hover {
   background-color: hotpink;
-  border: 2px solid hotpink;
 }
 
 .slider-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  display: flex;
+}
+
+
+.slider-nav li {
+  flex: 2;
+}
+
+.slider-nav .arrow {
+  flex: 1
+}
+
+.slider-nav a {
+  display: block;
+  width: 100%;
 }

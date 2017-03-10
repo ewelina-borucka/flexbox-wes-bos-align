@@ -26,13 +26,13 @@ a {
   padding: 20px 5px;
   background-color: #444;
   border: 2px solid #fff;
-
 }
 
 a:hover {
   background-color: hotpink;
 }
 
+/* flex container */
 .slider-nav ul {
   list-style: none;
   margin: 0;
@@ -41,9 +41,12 @@ a:hover {
   display: flex;
 }
 
-
+/* first flex item */
 .slider-nav li {
   flex: 2;
+  text-align: center;
+  border: 1px solid red;
+  display: flex;  /* makes container for a tags */
 }
 
 .slider-nav .arrow {
@@ -51,6 +54,7 @@ a:hover {
 }
 
 .slider-nav a {
-  display: block;
-  width: 100%;
+  /*display: block;
+  width: 100%;*/
+  flex-basis: 100%; /* since a tags are flex items use flex-basis */
 }
